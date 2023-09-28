@@ -1,3 +1,6 @@
 body {
-  background-color: rgb(202, 183, 154);
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  background: linear-gradient(135deg, $color2, $color3);
 }

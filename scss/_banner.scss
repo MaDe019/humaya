@@ -1,0 +1,28 @@
+// .banner {
+//   height: $banner--heigth;
+// }
+
+.banner__img-height {
+  background-image: url("../media/dulce-de-leche-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: $banner--heigth;
+}
+
+.banner__info {
+  color: $color3;
+  backdrop-filter: blur(1px);
+
+  & button {
+    font-weight: bolder;
+    text-shadow: 1px 1px 10px $shadow-color;
+  }
+  & h2 {
+    font-weight: bolder;
+    text-shadow: 3px 3px 5px $shadow-color;
+  }
+  &p {
+    text-shadow: 2px 2px 3px $shadow-color;
+  }
+}
